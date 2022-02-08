@@ -90,14 +90,15 @@ var trace1 = {
   
 
   var data = [trace1, trace2];
-  var layout = {barmode: 'stack',title: 'Total de ventas y devoluciones por cada tipo de producto de la Season 8',yaxis: {
-    xaxis: {
-        tickangle: 25,
-        tickfont: {
-          size: 10,
-          color: 'rgb(107, 107, 107)'
-        }},
-    
+  var layout = {barmode: 'stack',title: 'Total de ventas y devoluciones por cada tipo de producto de la Season 8',
+  xaxis: {
+    tickangle: 25,
+    tickfont: {
+      size: 10,
+      color: 'rgb(107, 107, 107)'
+    }},
+  
+  yaxis: {
     title: {
       text: 'Cantidad',
   
