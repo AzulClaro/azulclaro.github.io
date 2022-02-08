@@ -1,22 +1,22 @@
 var trace1 = {
     x: ['Season 7', 'Season 8', 'Season 9'],
     y: [6029, 2855, 4784],
-    name: 'Cold',
+    name: 'Warm',
     type: 'bar',
     marker:
     {
-        color:'rgb(8,48,107)'
+        color:'#DB2929'
     }
   };
   
   var trace2 = {
     x: ['Season 7', 'Season 8', 'Season 9'],
     y: [1683, 5546, 2655],
-    name: 'Warm',
+    name: 'Cold',
     type: 'bar',
     marker:
     {
-        color:'#DB2929'
+        color:'rgb(8,48,107)'
     }
   };
   
